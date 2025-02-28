@@ -6,17 +6,18 @@
 1.  Clonar repositorio
 2. Ejecutar
 
-```
-yarn install
+```bash
+$ yarn install
 ```
 3. Tener Nest CLI Instalado
-```
-npm i -g @nestjs/cli
+
+```bash
+$ npm i -g @nestjs/cli
 ```
 
 4. Levantar la Base de datos
-```
-docker-compose up -d
+```bash
+$ docker-compose up -d
 ```
 ## Stack utilizado 
 

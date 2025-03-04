@@ -19,6 +19,12 @@ $ npm i -g @nestjs/cli
 ```bash
 $ docker-compose up -d
 ```
+5. Recosntruir la Base de datos con la semilla (Seed)
+```url
+  http://localhost:3000/api/v2/seed
+```
+- Usarlo meramente en desarrollo, o si no se tienen datos en la Base de datos
+
 ## Stack utilizado 
 
 * MongoDB

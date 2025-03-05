@@ -4,7 +4,6 @@ import { PokeResponse } from './interfaces/poke-response.interface';
 import { Pokemon } from 'src/pokemon/entities/pokemon.entity';
 import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
-import { url } from 'inspector/promises';
 import { AxiosAdapter } from 'src/common/adapters/axios.adapter';
 
 
